@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: white;
+  font-size: 40px;
+}
+
+body {
+  background-color: #ade8f4;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90dvh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #48cae4;
+  width: 20%;
+  padding: 150px 0;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.stopWatch {
+  background-color: #fff;
+  padding: 30px 110px;
+  border-radius: 8px;
+  font-size: 45px;
+}
+
+.btns button {
+  padding: 20px;
+  background-color: #0077b6;
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: 0.1s ease-in;
+}
+
+.btns button:hover {
+  background-color: #023e8a;
+}
+
+@media (max-width: 1345px) {
+  .stopWatch {
+    padding: 30px 100px;
+  }
+
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 879px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (max-width: 527px) {
+  .container {
+    width: 80%;
+  }
+
+  .stopWatch {
+    padding: 30px 50px;
+  }
+}
+
+@media (max-width: 329px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (max-width: 293px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 264px) {
+  .container {
+    width: 100%;
+  }
+
+  .btns button {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 234px) {
+  .container {
+    width: 100%;
+  }
+
+  .btns button {
+    padding: 10px;
+  }
+
+  .stopWatch {
+    padding: 30px 40px;
+  }
+}
